@@ -1,0 +1,16 @@
+.form-container-fields {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-self: self-end;
+  width: 400px;
+}
+
+.button-size{
+  width: 400px;
+}
+
+button[disabled]{
+  background-color: #cccccc;
+
+}

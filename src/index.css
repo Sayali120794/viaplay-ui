@@ -1,5 +1,5 @@
 body {
-  background-color: #ddf;
+  background-color: cadetblue !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -14,20 +14,32 @@ code {
 }
 
 .watched {
-	margin: 0 auto;
-	width: 30%;
+  margin: 0 auto;
+  width: 30%;
 }
 
 .span {
-	float: left;
+  float: left;
 }
 
 img {
-	border-right: 60px solid black;
-	border-left: 60px solid black;
+  border-right: 60px solid black;
+  border-left: 60px solid black;
 }
 
 .all {
-	margin: 0 auto;
-	width: 30%;
+  margin: 0 auto;
+  width: 30%;
 }
+
+.header {
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding-left: 300px;
+}
+
