@@ -1,3 +1,34 @@
+## How to run the application-
+
+1. Use npm start command to run the application.
+2. If any other application is already running on default port 3000, you will be asked if you want to run the code on other port. press "y" and click enter. Your application will run on different port.
+3. Use npm intall to add any new library.
+
+## How to use the application-
+
+1. Enter the movie name, image url and description in the 3 text boxes given respectively.
+2. Your movie will be added to the watchlist. You can refer that watchlist in future to decide any movie to watch from the list.
+3. After you click on the movie title from watchlist the movie details will be added to already watched movie only once.
+4. You can remove any movie from the Already Watched List by clicking on the movie title.
+
+## Code Changes Made:
+
+1. I have devided the whole application in three parts and aaded their functionality as three different components.
+2. I have made seperate file data.js to store the default data. We can any new data in future in this file and also reuse it other components.
+3. I have used index.js file only for rendering purpose.
+4. I have used only one local storage to save the data and updated it according to the need.
+5. I have used bootstrap to style the application.
+6. I have used flexbox instead of </br> tag to align the application properly.
+7. I have used separate stylesheet instead of inline css and also kept all the common css properties in index.css file.
+8. I have used the lasted concepts of React like functional components, react hooks.
+9. I have also applied some validations to the add movie form.
+10. I have avoided to use reducer, redux libraries to keep the application as simple as possible as per the instructions and also to save time.
+
+## TODO-
+
+1. Can use store to store the data and redux for better performance.
+2. Can add test cases.
+
 ## JS/React app cleanup
 
 Jenny is a newbie developer that has decided to learn Javascript and React. She wrote this simple application to keep track of which movies she wants to see, and which ones she has seen.
